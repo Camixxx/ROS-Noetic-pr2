@@ -1,0 +1,728 @@
+./install_pr2_noetic.sh 
+[sudo] jillian 的密码： 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+E: 无法定位软件包 libfcl-0.5-dev
+E: 无法按照 glob ‘libfcl-0.5-dev’ 找到任何软件包
+E: 无法按照正则表达式 libfcl-0.5-dev 找到任何软件包
+E: 无法定位软件包 libglew1.13
+E: 无法按照 glob ‘libglew1.13’ 找到任何软件包
+E: 无法按照正则表达式 libglew1.13 找到任何软件包
+E: 无法定位软件包 ros-noetic-octomap-rviz-plugins
+E: 无法定位软件包 ros-noetic-srdfdom
+忽略:1 http://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu focal InRelease
+命中:2 http://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu focal Release
+命中:3 http://mirrors.huaweicloud.com/repository/ubuntu focal InRelease
+命中:5 http://mirrors.huaweicloud.com/repository/ubuntu focal-updates InRelease
+命中:6 http://mirrors.huaweicloud.com/repository/ubuntu focal-backports InRelease
+命中:7 http://mirrors.huaweicloud.com/repository/ubuntu focal-security InRelease
+命中:8 http://mirrors.huaweicloud.com/repository/ubuntu focal-proposed InRelease
+正在读取软件包列表... 完成                              
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+正在计算更新... 完成
+下列软件包是自动安装的并且现在不需要了：
+  libfprint-2-tod1
+使用'sudo apt autoremove'来卸载它(它们)。
+下列软件包的版本将保持不变：
+  linux-generic-hwe-20.04 linux-headers-generic-hwe-20.04
+  linux-image-generic-hwe-20.04
+下列软件包将被升级：
+  apport-gtk apt apt-utils base-files bsdutils command-not-found
+  evolution-data-server evolution-data-server-common fdisk fonts-noto-mono
+  fonts-opensymbol gir1.2-mutter-6 gir1.2-nma-1.0
+  gnome-shell-extension-desktop-icons grub-common grub-pc grub-pc-bin
+  grub2-common im-config libapt-pkg6.0 libatopology2 libcamel-1.2-62
+  libdns-export1109 libebackend-1.2-10 libebook-1.2-20 libebook-contacts-1.2-3
+  libecal-2.0-1 libedata-book-1.2-26 libedata-cal-2.0-1 libedataserver-1.2-24
+  libedataserverui-1.2-2 libfdisk1 libfprint-2-2 libfprint-2-tod1
+  libisc-export1105 libmutter-6-0 libnma0 libpam-modules libpam-modules-bin
+  libpam-runtime libpam0g libsmartcols1 linux-firmware memtest86+ mount mutter
+  mutter-common network-manager-gnome openvpn python3-commandnotfound
+  python3-distupgrade rfkill rsyslog sudo ubuntu-desktop
+  ubuntu-desktop-minimal ubuntu-minimal ubuntu-release-upgrader-core
+  ubuntu-release-upgrader-gtk ubuntu-standard unattended-upgrades util-linux
+  uuid-runtime xz-utils yaru-theme-gnome-shell yaru-theme-gtk yaru-theme-icon
+  yaru-theme-sound
+升级了 68 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 3 个软件包未被升级。
+需要下载 129 MB 的归档。
+解压缩后会消耗 1.779 kB 的额外空间。
+。。。。
+正在读取状态信息... 完成       
+cmake 已经是最新版 (3.16.3-1ubuntu1)。
+cmake 已设置为手动安装。
+g++ 已经是最新版 (4:9.3.0-1ubuntu2)。
+g++ 已设置为手动安装。
+libboost-filesystem-dev 已经是最新版 (1.71.0.0ubuntu2)。
+libboost-filesystem-dev 已设置为手动安装。
+libboost-program-options-dev 已经是最新版 (1.71.0.0ubuntu2)。
+libboost-program-options-dev 已设置为手动安装。
+libboost-system-dev 已经是最新版 (1.71.0.0ubuntu2)。
+libboost-system-dev 已设置为手动安装。
+libyaml-cpp-dev 已经是最新版 (0.6.2-4ubuntu1)。
+libyaml-cpp-dev 已设置为手动安装。
+pkg-config 已经是最新版 (0.29.1-0ubuntu4)。
+pkg-config 已设置为手动安装。
+wget 已经是最新版 (1.20.3-1ubuntu1)。
+wget 已设置为手动安装。
+libboost-serialization-dev 已经是最新版 (1.71.0.0ubuntu2)。
+libboost-serialization-dev 已设置为手动安装。
+libboost-test-dev 已经是最新版 (1.71.0.0ubuntu2)。
+libboost-test-dev 已设置为手动安装。
+libeigen3-dev 已经是最新版 (3.3.7-2)。
+libeigen3-dev 已设置为手动安装。
+下列软件包是自动安装的并且现在不需要了：
+  libfprint-2-tod1
+使用'sudo apt autoremove'来卸载它(它们)。
+将会同时安装下列软件：
+  libccd2 libode8
+下列【新】软件包将被安装：
+  libccd2 libode-dev libode8
+升级了 0 个软件包，新安装了 3 个软件包，要卸载 0 个软件包，有 3 个软件包未被升级。
+需要下载 864 kB 的归档。
+解压缩后会消耗 3.812 kB 的额外空间。
+获取:1 http://mirrors.huaweicloud.com/repository/ubuntu focal/universe amd64 libccd2 amd64 2.1-1 [20,2 kB]
+获取:2 http://mirrors.huaweicloud.com/repository/ubuntu focal/universe amd64 libode8 amd64 2:0.16-3build1 [374 kB]
+获取:3 http://mirrors.huaweicloud.com/repository/ubuntu focal/universe amd64 libode-dev amd64 2:0.16-3build1 [470 kB]
+已下载 864 kB，耗时 1秒 (996 kB/s)
+正在选中未选择的软件包 libccd2:amd64。
+。。。。
+正在处理用于 libc-bin (2.31-0ubuntu9) 的触发器 ...
+正在处理用于 man-db (2.9.1-1) 的触发器 ...
+--2020-08-30 22:47:43--  https://github.com/ompl/ompl/archive/1.5.0.tar.gz
+正在解析主机 github.com (github.com)... 192.30.253.112, 192.30.253.113, 192.30.255.112
+正在连接 github.com (github.com)|192.30.253.112|:443... 失败：连接超时。
+正在连接 github.com (github.com)|192.30.253.113|:443... ^[T失败：连接超时。
+正在连接 github.com (github.com)|192.30.255.112|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 302 Found
+位置：https://codeload.github.com/ompl/ompl/tar.gz/1.5.0 [跟随至新的 URL]
+--2020-08-30 22:52:08--  https://codeload.github.com/ompl/ompl/tar.gz/1.5.0
+正在解析主机 codeload.github.com (codeload.github.com)... 13.250.162.133
+正在连接 codeload.github.com (codeload.github.com)|13.250.162.133|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度： 未指定 [application/x-gzip]
+正在保存至: “STDOUT”
+<pre>已发出 HTTP 请求，正在等待回应... 200 OK
+长度： 未指定 [application/x-gzip]
+正在保存至: “STDOUT”
+
+-                       [   &lt;=&gt;              ]   2,40M   491 B/s    用时 9m 38s
+
+2020-08-30 23:16:50 (4,25 KB/s) - 在 2516845 字节处发生读取错误 (成功)。重试中。
+
+--2020-08-30 23:16:51--  (尝试次数： 2)  https://codeload.github.com/ompl/ompl/tar.gz/1.5.0
+正在连接 codeload.github.com (codeload.github.com)|13.250.162.133|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度： 未指定 [application/x-gzip]
+正在保存至: “STDOUT”
+</pre>
+
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "move_base" with
+  any of the following names:
+
+    move_baseConfig.cmake
+    move_base-config.cmake
+
+  Add the installation prefix of "move_base" to CMAKE_PREFIX_PATH or set
+  "move_base_DIR" to a directory containing one of the above files.  If
+  "move_base" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  pr2_navigation/pr2_navigation_config/CMakeLists.txt:5 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/build/CMakeFiles/CMakeError.log".
+Invoking "cmake" failed
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2$ sudo apt-get install ros-noetic-move-base
+
+
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "pr2_msgs" with any
+  of the following names:
+
+    pr2_msgsConfig.cmake
+    pr2_msgs-config.cmake
+
+  Add the installation prefix of "pr2_msgs" to CMAKE_PREFIX_PATH or set
+  "pr2_msgs_DIR" to a directory containing one of the above files.  If
+  "pr2_msgs" provides a separate development package or SDK, be sure it has
+  been installed.
+Call Stack (most recent call first):
+  pr2_power_drivers/ocean_battery_driver/CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/build/CMakeFiles/CMakeError.log".
+Invoking "cmake" failed
+
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- rosapi: 1 messages, 25 services
+-- Installing devel-space wrapper /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/rosbridge_suite/rosapi/scripts/rosapi_node to /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/devel/lib/rosapi
+-- +++ processing catkin metapackage: 'rosbridge_suite'
+-- ==> add_subdirectory(rosbridge_suite/rosbridge_suite)
+-- +++ processing catkin package: 'pr2_description'
+-- ==> add_subdirectory(pr2_common/pr2_description)
+-- Could NOT find convex_decomposition (missing: convex_decomposition_DIR)
+-- Could not find the required component 'convex_decomposition'. The following CMake error indicates that you either need to install the package with the same name or change your environment so that it can be found.
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by
+  "convex_decomposition" with any of the following names:
+
+    convex_decompositionConfig.cmake
+    convex_decomposition-config.cmake
+
+  Add the installation prefix of "convex_decomposition" to CMAKE_PREFIX_PATH
+  or set "convex_decomposition_DIR" to a directory containing one of the
+  above files.  If "convex_decomposition" provides a separate development
+  package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  pr2_common/pr2_description/CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+Invoking "cmake" failed
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws$ sudo apt-get install ros-noetic
+[sudo] jillian 的密码： 
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws$ sudo apt-get install ros-noetic-convex-decomposition
+[sudo] jillian 的密码： 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+下列软件包是自动安装的并且现在不需要了：
+  libfprint-2-tod1
+使用'sudo apt autoremove'来卸载它(它们)。
+下列【新】软件包将被安装：
+  ros-noetic-convex-decomposition
+升级了 0 个软件包，新安装了 1 个软件包，要卸载 0 个软件包，有 3 个软件包未被升级。
+需要下载 70,5 kB 的归档。
+解压缩后会消耗 213 kB 的额外空间。
+获取:1 http://mirrors.tuna.tsinghua.edu.cn/ros/ubuntu focal/main amd64 ros-noetic-convex-decomposition amd64 0.1.12-1focal.20200724.165854 [70,5 kB]
+已下载 70,5 kB，耗时 0秒 (174 kB/s)                  
+正在选中未选择的软件包 ros-noetic-convex-decomposition。
+(正在读取数据库 ... 系统当前共安装有 211629 个文件和目录。)
+准备解压 .../ros-noetic-convex-decomposition_0.1.12-1focal.20200724.165854_amd64.deb  ...
+正在解压 ros-noetic-convex-decomposition (0.1.12-1focal.20200724.165854) ...
+正在设置 ros-noetic-convex-decomposition (0.1.12-1focal.20200724.165854) ...
+
+
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "ivcon" with any of
+  the following names:
+
+    ivconConfig.cmake
+    ivcon-config.cmake
+
+  Add the installation prefix of "ivcon" to CMAKE_PREFIX_PATH or set
+  "ivcon_DIR" to a directory containing one of the above files.  If "ivcon"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+Call Stack (most recent call first):
+  pr2_common/pr2_description/CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+Invoking "cmake" failed
+
+
+
+
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by
+  "pr2_controller_manager" with any of the following names:
+
+    pr2_controller_managerConfig.cmake
+    pr2_controller_manager-config.cmake
+
+  Add the installation prefix of "pr2_controller_manager" to
+  CMAKE_PREFIX_PATH or set "pr2_controller_manager_DIR" to a directory
+  containing one of the above files.  If "pr2_controller_manager" provides a
+  separate development package or SDK, be sure it has been installed.
+Call Stack (most recent call first):
+  pr2_mannequin_mode/CMakeLists.txt:4 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+
+CMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package):
+  Could not find a package configuration file provided by "boost_signals"
+  (requested version 1.71.0) with any of the following names:
+
+    boost_signalsConfig.cmake
+    boost_signals-config.cmake
+
+  Add the installation prefix of "boost_signals" to CMAKE_PREFIX_PATH or set
+  "boost_signals_DIR" to a directory containing one of the above files.  If
+  "boost_signals" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /usr/share/cmake-3.16/Modules/FindBoost.cmake:443 (find_package)
+  pr2_navigation/semantic_point_annotator/CMakeLists.txt:9 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+
+
+CMake Error at /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:117 (find_package):
+  Could not find a package configuration file provided by "boost_signals"
+  (requested version 1.71.0) with any of the following names:
+
+    boost_signalsConfig.cmake
+    boost_signals-config.cmake
+
+  Add the installation prefix of "boost_signals" to CMAKE_PREFIX_PATH or set
+  "boost_signals_DIR" to a directory containing one of the above files.  If
+  "boost_signals" provides a separate development package or SDK, be sure it
+  has been installed.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake:182 (boost_find_component)
+  /usr/share/cmake-3.16/Modules/FindBoost.cmake:443 (find_package)
+  pr2_navigation/semantic_point_annotator/CMakeLists.txt:9 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+
+
+https://github.com/ros/geometry2/pull/354/files
+
+
+ No package 'sdformat' found
+CMake Error at /usr/share/cmake-3.16/Modules/FindPkgConfig.cmake:463 (message):
+  A required package was not found
+Call Stack (most recent call first):
+  /usr/share/cmake-3.16/Modules/FindPkgConfig.cmake:643 (_pkg_check_modules_internal)
+  pr2_simulator/pr2_gazebo_plugins/CMakeLists.txt:18 (pkg_check_modules)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+Invoking "cmake" failed
+
+
+
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws$ apt-cache search sdformat
+libsdformat6 - Simulation Description Format (SDF) parser - Shared library
+libsdformat6-dev - Simulation Description Format (SDF) parser - Development files
+sdformat-doc - Simulation Description Format (SDF) parser - Documentation
+sdformat-sdf - Simulation Description Format (SDF) parser - SDF files
+libsdformat9 - Simulation Description Format (SDF) parser - Shared library
+libsdformat9-dbg - Simulation Description Format (SDF) parser - Debugging symbols
+libsdformat9-dev - Simulation Description Format (SDF) parser - Development files
+sdformat9-doc - Simulation Description Format (SDF) parser - Documentation
+sdformat9-sdf - Simulation Description Format (SDF) parser - SDF files
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws$ apt-cache search sdformat\^C
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws$ sudo apt-get install sdformat
+[sudo] jillian 的密码： 
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+E: 无法定位软件包 sdformat
+jillian@jillian-VirtualBox:/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws$ sudo apt-get install sdformat9-sdf
+正在读取软件包列表... 完成
+正在分析软件包的依赖关系树       
+正在读取状态信息... 完成       
+sdformat9-sdf 已经是最新版 (9.2.0-1~focal)。
+下列软件包是自动安装的并且现在不需要了：
+  libfprint-2-tod1
+使用'sudo apt autoremove'来卸载它(它们)。
+升级了 0 个软件包，新安装了 0 个软件包，要卸载 0 个软件包，有 3 个软件包未被升级。
+
+CMake Error at /opt/ros/noetic/share/catkin/cmake/catkin_workspace.cmake:100 (message):
+  This workspace contains non-catkin packages in it, and catkin cannot build
+  a non-homogeneous workspace without isolation.  Try the
+  'catkin_make_isolated' command instead.
+Call Stack (most recent call first):
+  CMakeLists.txt:69 (catkin_workspace)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeOutput.log".
+See also "/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build/CMakeFiles/CMakeError.log".
+Invoking "cmake" failed
+
+
+cmake fcl 
+/media/sf_D_Share/ROS/noeticic_pr2/fcl/include/fcl/geometry/bvh/BV_node.h:52:19: note: ‘struct fcl::BVNode<fcl::RSS<double> >’ declared here
+   52 | struct FCL_EXPORT BVNode : public BVNodeBase
+      |                   ^~~~~~
+[ 56%] Building CXX object src/CMakeFiles/fcl.dir/narrowphase/distance_request.cpp.o
+[ 56%] Building CXX object src/CMakeFiles/fcl.dir/narrowphase/distance_result.cpp.o
+[ 57%] Linking CXX shared library ../lib/libfcl.so
+CMake Error: failed to create symbolic link '../lib/libfcl.so.0.6': operation not permitted
+CMake Error: cmake_symlink_library: System Error: Operation not permitted
+CMake Error: failed to create symbolic link '../lib/libfcl.so': operation not permitted
+CMake Error: cmake_symlink_library: System Error: Operation not permitted
+make[2]: *** [src/CMakeFiles/fcl.dir/build.make:1739：lib/libfcl.so.0.6.1] 错误 1
+make[2]: *** 正在删除文件“lib/libfcl.so.0.6.1”
+make[1]: *** [CMakeFiles/Makefile2:1159：src/CMakeFiles/fcl.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
+
+
+azebo_ros_power_monitor.cpp:30:
+/usr/include/sdformat-9.2/sdf/Element.hh: At global scope:
+/usr/include/sdformat-9.2/sdf/Element.hh:237:18: error: ‘any’ in namespace ‘std’ does not name a type
+  237 |     public: std::any GetAny(const std::string &_key = "") const;
+      |                  ^~~
+/usr/include/sdformat-9.2/sdf/Element.hh:237:13: note: ‘std::any’ is only available from C++17 onwards
+  237 |     public: std::any GetAny(const std::string &_key = "") const;
+      |             ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/Entity.hh:35,
+                 from /usr/include/gazebo-11/gazebo/physics/Model.hh:30,
+                 from /usr/include/gazebo-11/gazebo/physics/Actor.hh:27,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Base.hh:323:28: error: ‘optional’ in namespace ‘std’ does not name a template type
+  323 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose() const;
+      |                            ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Base.hh:323:23: note: ‘std::optional’ is only available from C++17 onwards
+  323 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose() const;
+      |                       ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/Actor.hh:27,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Model.hh:478:20: error: ‘optional’ in namespace ‘std’ does not name a template type
+  478 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |                    ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Model.hh:478:15: note: ‘std::optional’ is only available from C++17 onwards
+  478 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |               ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:6,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:28: error: ‘optional’ in namespace ‘std’ does not name a template type
+  594 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                            ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:23: note: ‘std::optional’ is only available from C++17 onwards
+  594 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                       ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:9,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:28: error: ‘optional’ in namespace ‘std’ does not name a template type
+  205 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                            ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:23: note: ‘std::optional’ is only available from C++17 onwards
+  205 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                       ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:26,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Light.hh:78:20: error: ‘optional’ in namespace ‘std’ does not name a template type
+   78 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |                    ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Light.hh:78:15: note: ‘std::optional’ is only available from C++17 onwards
+   78 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |               ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:28,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Link.hh:617:20: error: ‘optional’ in namespace ‘std’ does not name a template type
+  617 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |                    ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Link.hh:617:15: note: ‘std::optional’ is only available from C++17 onwards
+  617 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |               ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:36,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh: In static member function ‘static T gazebo::physics::PhysicsEngine::any_cast(const boost::any&)’:
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: error: ‘any’ is not a member of ‘std’
+  274 |           auto value = boost::any_cast<std::any>(_value);
+      |                                             ^~~
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: note: ‘std::any’ is only available from C++17 onwards
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: error: ‘any’ is not a member of ‘std’
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: note: ‘std::any’ is only available from C++17 onwards
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23: error: ‘any_cast’ is not a member of ‘std’
+  275 |           return std::any_cast<T>(value);
+      |                       ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23: note: ‘std::any_cast’ is only available from C++17 onwards
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:33: error: expected primary-expression before ‘>’ token
+  275 |           return std::any_cast<T>(value);
+      |                                 ^
+make[2]: *** [CMakeFiles/gazebo_ros_power_monitor.dir/build.make:63：CMakeFiles/gazebo_ros_power_monitor.dir/src/gazebo_ros_power_monitor.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:3233：CMakeFiles/gazebo_ros_power_monitor.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
+<== Failed to process package 'pr2_gazebo_plugins': 
+  Command '['/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/devel_isolated/power_monitor/env.sh', 'make', '-j1', '-l1']' returned non-zero exit status 2.
+
+Reproduce this error by running:
+==> cd /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build_isolated/pr2_gazebo_plugins && /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/devel_isolated/power_monitor/env.sh make -j1 -l1
+
+Command failed, exiting.
+
+
+
+sdf
+
+[ 18%] Building CXX object CMakeFiles/gazebo_ros_power_monitor.dir/src/gazebo_ros_power_monitor.cpp.o
+In file included from /usr/include/ignition/math6/ignition/math/Color.hh:22,
+                 from /usr/include/gazebo-11/gazebo/physics/Actor.hh:25,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/ignition/math6/ignition/math/Helpers.hh:37:13: warning: variable templates only available with ‘-std=c++14’ or ‘-std=gnu++14’
+   37 | constexpr T IGN_MASSMATRIX3_DEFAULT_TOLERANCE = T(10);
+      |             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /usr/include/sdformat-9.2/sdf/Element.hh:28,
+                 from /usr/include/sdformat-9.2/sdf/Actor.hh:25,
+                 from /usr/include/sdformat-9.2/sdf/sdf.hh:2,
+                 from /usr/include/gazebo-11/gazebo/physics/State.hh:26,
+                 from /usr/include/gazebo-11/gazebo/physics/ModelState.hh:28,
+                 from /usr/include/gazebo-11/gazebo/physics/Model.hh:29,
+                 from /usr/include/gazebo-11/gazebo/physics/Actor.hh:27,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/sdformat-9.2/sdf/Param.hh:72:57: error: expected constructor, destructor, or type conversion before ‘;’ token
+   72 |   template<class T> ParamStreamer(T) -> ParamStreamer<T>;
+      |                                                         ^
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: error: ‘variant’ is not a member of ‘std’
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                               ^~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: note: ‘std::variant’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: error: ‘variant’ is not a member of ‘std’
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: note: ‘std::variant’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:83:57: error: expected parameter pack before ‘...’
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                                         ^~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:57: error: template argument 1 is invalid
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: error: ‘variant’ is not a member of ‘std’
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                               ^~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: note: ‘std::variant’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: error: ‘variant’ is not a member of ‘std’
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: note: ‘std::variant’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:83:57: error: expected parameter pack before ‘...’
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                                         ^~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:60: error: template argument 1 is invalid
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                                            ^~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: error: ‘variant’ is not a member of ‘std’
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                               ^~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: note: ‘std::variant’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: error: ‘variant’ is not a member of ‘std’
+/usr/include/sdformat-9.2/sdf/Param.hh:83:47: note: ‘std::variant’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:83:57: error: expected parameter pack before ‘...’
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                                         ^~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:60: error: template argument 1 is invalid
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                                            ^~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:28: error: ‘ParamStreamer’ is not a type
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                            ^~~~~~~~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:83:41: error: expected ‘,’ or ‘...’ before ‘<’ token
+   83 |                            ParamStreamer<std::variant<Ts...>> sv)
+      |                                         ^
+/usr/include/sdformat-9.2/sdf/Param.hh: In function ‘std::ostream& sdf::v9::operator<<(std::ostream&, int)’:
+/usr/include/sdformat-9.2/sdf/Param.hh:85:10: error: ‘visit’ is not a member of ‘std’
+   85 |     std::visit([&os](auto const &v)
+      |          ^~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:85:10: note: ‘std::visit’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:85:22: error: use of ‘auto’ in lambda parameter declaration only available with ‘-std=c++14’ or ‘-std=gnu++14’
+   85 |     std::visit([&os](auto const &v)
+      |                      ^~~~
+/usr/include/sdformat-9.2/sdf/Param.hh: In lambda function:
+/usr/include/sdformat-9.2/sdf/Param.hh:87:28: error: missing template arguments before ‘{’ token
+   87 |         os << ParamStreamer{v};
+      |                            ^
+/usr/include/sdformat-9.2/sdf/Param.hh: In function ‘std::ostream& sdf::v9::operator<<(std::ostream&, int)’:
+/usr/include/sdformat-9.2/sdf/Param.hh:88:10: error: ‘sv’ was not declared in this scope
+   88 |       }, sv.val);
+      |          ^~
+/usr/include/sdformat-9.2/sdf/Param.hh: At global scope:
+/usr/include/sdformat-9.2/sdf/Param.hh:173:30: error: ‘std::any’ has not been declared
+  173 |     public: bool GetAny(std::any &_anyVal) const;
+      |                              ^~~
+/usr/include/sdformat-9.2/sdf/Param.hh:242:32: error: ‘any’ is not a member of ‘std’
+  242 |     public: std::function<std::any ()> updateFunc;
+      |                                ^~~
+/usr/include/sdformat-9.2/sdf/Param.hh:242:32: note: ‘std::any’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:242:32: error: ‘any’ is not a member of ‘std’
+/usr/include/sdformat-9.2/sdf/Param.hh:242:32: note: ‘std::any’ is only available from C++17 onwards
+/usr/include/sdformat-9.2/sdf/Param.hh:242:38: error: template argument 1 is invalid
+  242 |     public: std::function<std::any ()> updateFunc;
+      |                                      ^
+/usr/include/sdformat-9.2/sdf/Param.hh:246:26: error: ‘variant’ in namespace ‘std’ does not name a template type
+  246 |     public: typedef std::variant<bool, char, std::string, int, std::uint64_t,
+      |                          ^~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:246:21: note: ‘std::variant’ is only available from C++17 onwards
+  246 |     public: typedef std::variant<bool, char, std::string, int, std::uint64_t,
+      |                     ^~~
+/usr/include/sdformat-9.2/sdf/Param.hh:257:13: error: ‘ParamVariant’ does not name a type
+  257 |     public: ParamVariant value;
+      |             ^~~~~~~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:260:13: error: ‘ParamVariant’ does not name a type
+  260 |     public: ParamVariant defaultValue;
+      |             ^~~~~~~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh: In member function ‘bool sdf::v9::Param::Get(T&) const’:
+/usr/include/sdformat-9.2/sdf/Param.hh:298:69: error: ‘class sdf::v9::ParamPrivate’ has no member named ‘value’
+  298 |         std::string strValue = std::get<std::string>(this->dataPtr->value);
+      |                                                                     ^~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:318:25: error: ‘get_if’ is not a member of ‘std’
+  318 |         T *value = std::get_if<T>(&this->dataPtr->value);
+      |                         ^~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:318:33: error: expected primary-expression before ‘>’ token
+  318 |         T *value = std::get_if<T>(&this->dataPtr->value);
+      |                                 ^
+/usr/include/sdformat-9.2/sdf/Param.hh:318:51: error: ‘class sdf::v9::ParamPrivate’ has no member named ‘value’
+  318 |         T *value = std::get_if<T>(&this->dataPtr->value);
+      |                                                   ^~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:324:30: error: missing template arguments before ‘{’ token
+  324 |           ss << ParamStreamer{this->dataPtr->value};
+      |                              ^
+/usr/include/sdformat-9.2/sdf/Param.hh: In member function ‘bool sdf::v9::Param::GetDefault(T&) const’:
+/usr/include/sdformat-9.2/sdf/Param.hh:349:26: error: missing template arguments before ‘{’ token
+  349 |       ss << ParamStreamer{this->dataPtr->defaultValue};
+      |                          ^
+/usr/include/sdformat-9.2/sdf/Param.hh: In member function ‘bool sdf::v9::Param::IsType() const’:
+/usr/include/sdformat-9.2/sdf/Param.hh:369:17: error: ‘holds_alternative’ is not a member of ‘std’
+  369 |     return std::holds_alternative<Type>(this->dataPtr->value);
+      |                 ^~~~~~~~~~~~~~~~~
+/usr/include/sdformat-9.2/sdf/Param.hh:369:39: error: expected primary-expression before ‘>’ token
+  369 |     return std::holds_alternative<Type>(this->dataPtr->value);
+      |                                       ^
+/usr/include/sdformat-9.2/sdf/Param.hh:369:56: error: ‘class sdf::v9::ParamPrivate’ has no member named ‘value’
+  369 |     return std::holds_alternative<Type>(this->dataPtr->value);
+      |                                                        ^~~~~
+In file included from /usr/include/sdformat-9.2/sdf/Actor.hh:25,
+                 from /usr/include/sdformat-9.2/sdf/sdf.hh:2,
+                 from /usr/include/gazebo-11/gazebo/physics/State.hh:26,
+                 from /usr/include/gazebo-11/gazebo/physics/ModelState.hh:28,
+                 from /usr/include/gazebo-11/gazebo/physics/Model.hh:29,
+                 from /usr/include/gazebo-11/gazebo/physics/Actor.hh:27,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/sdformat-9.2/sdf/Element.hh: At global scope:
+/usr/include/sdformat-9.2/sdf/Element.hh:237:18: error: ‘any’ in namespace ‘std’ does not name a type
+  237 |     public: std::any GetAny(const std::string &_key = "") const;
+      |                  ^~~
+/usr/include/sdformat-9.2/sdf/Element.hh:237:13: note: ‘std::any’ is only available from C++17 onwards
+  237 |     public: std::any GetAny(const std::string &_key = "") const;
+      |             ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/Entity.hh:35,
+                 from /usr/include/gazebo-11/gazebo/physics/Model.hh:30,
+                 from /usr/include/gazebo-11/gazebo/physics/Actor.hh:27,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Base.hh:323:28: error: ‘optional’ in namespace ‘std’ does not name a template type
+  323 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose() const;
+      |                            ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Base.hh:323:23: note: ‘std::optional’ is only available from C++17 onwards
+  323 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose() const;
+      |                       ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/Actor.hh:27,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:2,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Model.hh:478:20: error: ‘optional’ in namespace ‘std’ does not name a template type
+  478 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |                    ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Model.hh:478:15: note: ‘std::optional’ is only available from C++17 onwards
+  478 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |               ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/BallJoint.hh:25,
+                 from /usr/include/gazebo-11/gazebo/physics/physics.hh:6,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:28: error: ‘optional’ in namespace ‘std’ does not name a template type
+  594 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                            ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Joint.hh:594:23: note: ‘std::optional’ is only available from C++17 onwards
+  594 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                       ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:9,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:28: error: ‘optional’ in namespace ‘std’ does not name a template type
+  205 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                            ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Collision.hh:205:23: note: ‘std::optional’ is only available from C++17 onwards
+  205 |       public: virtual std::optional<sdf::SemanticPose> SDFSemanticPose()
+      |                       ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:26,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Light.hh:78:20: error: ‘optional’ in namespace ‘std’ does not name a template type
+   78 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |                    ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Light.hh:78:15: note: ‘std::optional’ is only available from C++17 onwards
+   78 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |               ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:28,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/Link.hh:617:20: error: ‘optional’ in namespace ‘std’ does not name a template type
+  617 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |                    ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/Link.hh:617:15: note: ‘std::optional’ is only available from C++17 onwards
+  617 |       public: std::optional<sdf::SemanticPose> SDFSemanticPose() const override;
+      |               ^~~
+In file included from /usr/include/gazebo-11/gazebo/physics/physics.hh:36,
+                 from /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/src/pr2_simulator/pr2_gazebo_plugins/src/gazebo_ros_power_monitor.cpp:30:
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh: In static member function ‘static T gazebo::physics::PhysicsEngine::any_cast(const boost::any&)’:
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: error: ‘any’ is not a member of ‘std’
+  274 |           auto value = boost::any_cast<std::any>(_value);
+      |                                             ^~~
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: note: ‘std::any’ is only available from C++17 onwards
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: error: ‘any’ is not a member of ‘std’
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:274:45: note: ‘std::any’ is only available from C++17 onwards
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23: error: ‘any_cast’ is not a member of ‘std’
+  275 |           return std::any_cast<T>(value);
+      |                       ^~~~~~~~
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:23: note: ‘std::any_cast’ is only available from C++17 onwards
+/usr/include/gazebo-11/gazebo/physics/PhysicsEngine.hh:275:33: error: expected primary-expression before ‘>’ token
+  275 |           return std::any_cast<T>(value);
+      |                                 ^
+make[2]: *** [CMakeFiles/gazebo_ros_power_monitor.dir/build.make:63：CMakeFiles/gazebo_ros_power_monitor.dir/src/gazebo_ros_power_monitor.cpp.o] 错误 1
+make[1]: *** [CMakeFiles/Makefile2:3233：CMakeFiles/gazebo_ros_power_monitor.dir/all] 错误 2
+make: *** [Makefile:141：all] 错误 2
+<== Failed to process package 'pr2_gazebo_plugins': 
+  Command '['/media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/devel_isolated/power_monitor/env.sh', 'make', '-j1', '-l1']' returned non-zero exit status 2.
+
+Reproduce this error by running:
+==> cd /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/build_isolated/pr2_gazebo_plugins && /media/sf_D_Share/ROS/noeticic_pr2/catkin_ws/devel_isolated/power_monitor/env.sh make -j1 -l1
+
+Command failed, exiting.
+
+[ 74%] Building CXX object pr2_navigation/pr2_navigation_self_filter/CMakeFiles/pr2_navigation_self_filter.dir/src/self_mask.cpp.o
+In file included from /usr/include/pcl-1.10/pcl/pcl_macros.h:77,
+                 from /usr/include/pcl-1.10/pcl/point_types.h:42,
+                 from /home/jillian/ROS/noeticic_pr2/catkin_ws/src/pr2_navigation/pr2_navigation_self_filter/include/pr2_navigation_self_filter/self_mask.h:33,
+                 from /home/jillian/ROS/noeticic_pr2/catkin_ws/src/pr2_navigation/pr2_navigation_self_filter/src/self_mask.cpp:30:
+/usr/include/pcl-1.10/pcl/pcl_config.h:7:4: error: #error PCL requires C++14 or above
+    7 |   #error PCL requires C++14 or above
+      |    ^~~~~
+In file included from /usr/include/pcl-1.10/pcl/console/print.h:44,
+                 from /usr/include/pcl-1.10/pcl/conversions.h:53,
+                 from /opt/ros/noetic/include/pcl_ros/point_cloud.h:8,
+                 from /home/jillian/ROS/noeticic_pr2/catkin_ws/src/pr2_navigation/pr2_navigation_self_filter/include/pr2_navigation_self_filter/self_mask.h:34,
+                 from /home/jillian/ROS/noeticic_pr2/catkin_ws/src/pr2_navigation/pr2_navigation_self_filter/src/self_mask.cpp:30:
+/usr/include/pcl-1.10/pcl/pcl_config.h:7:4: error: #error PCL requires C++14 or above
+    7 |   #error PCL requires C++14 or above
+      |    ^~~~~
+^Cmake[2]: *** [pr2_navigation/pr2_navigation_self_filter/CMakeFiles/pr2_navigation_self_filter.dir/build.make:63: pr2_navigation/pr2_navigation_self_filter/CMakeFiles/pr2_navigation_self_filter.dir/src/self_mask.cpp.o] 中断
+make[1]: *** [CMakeFiles/Makefile2:22416: pr2_navigation/pr2_navigation_self_filter/CMakeFiles/pr2_navigation_self_filter.dir/all] 中断
+make: *** [Makefile:141: all] 中断
+Traceback (most recent call last):
+  File "/opt/ros/noetic/bin/catkin_make", line 306, in <module>
+    sys.exit(main())
+  File "/opt/ros/noetic/bin/catkin_make", line 249, in main
+    run_command(cmd, make_path)
+  File "/opt/ros/noetic/lib/python3/dist-packages/catkin/builder.py", line 241, in run_command
+    proc.wait()
+  File "/usr/lib/python3.8/subprocess.py", line 1079, in wait
+    return self._wait(timeout=timeout)
+  File "/usr/lib/python3.8/subprocess.py", line 1804, in _wait
+    (pid, sts) = self._try_wait(0)
+  File "/usr/lib/python3.8/subprocess.py", line 1762, in _try_wait
+    (pid, sts) = os.waitpid(self.pid, wait_flags)
+KeyboardInterrupt
