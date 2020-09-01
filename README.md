@@ -41,6 +41,8 @@ Now in the root of your workspace run:
 
 to build everything. 
 
+``catkin_make install`` 
+
 From there you can source `/catkin_ws/devel/setup.bash`, simulate the PR2, and run Moveit.
 
 
