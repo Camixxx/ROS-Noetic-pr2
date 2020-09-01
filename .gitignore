@@ -1,0 +1,72 @@
+# SVN
+.svn/
+.DS_Store
+.catkin_workspace
+
+## Build generated
+build/
+DerivedData/
+Build/
+Index/
+devel/
+Release/
+ompl-1.5.0/
+
+###
+# C++ ignores
+#
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
+###              FLUTTER
+# Miscellaneous
+*.class
+*.lock
+*.log
+*.pyc
+*.swp
+.atom/
+.buildlog/
+.history
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Other
+*.tar.gz
